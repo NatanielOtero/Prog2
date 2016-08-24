@@ -14,9 +14,12 @@ namespace Ejercicio_1
         public Rueda TI;
         public Rueda TD;
         public static int ContadorDeObjetos;
-        private int KilometrosRecorridos;
+        public int KilometrosRecorridos;
         private static int numerorandom;
         private static Random rng;
+        public Auto Maximo;
+        public Auto Minimo;
+       
 
         public Auto()
         {
@@ -39,6 +42,10 @@ namespace Ejercicio_1
             this.TI = new Rueda();
             Auto.ContadorDeObjetos++;
         }
+        public int MinyMax()
+        {
+            return this.KilometrosRecorridos;
+        }
 
         public void VolverCero()
         {
@@ -47,12 +54,17 @@ namespace Ejercicio_1
 
         public void AgregarKilometros(int kilometros)
         {
- 
+            KilometrosRecorridos = kilometros;
+            
         }
+
+        
 
         public void MostrarAuto()
         {
             Console.WriteLine("El fabricante es: " + fabricante);
+            Console.WriteLine("Los kilometros recorridos: " + KilometrosRecorridos);
+            
         }
          
         static Auto()//No lleva modificador de visibilidad si es estatico

@@ -13,6 +13,7 @@ namespace Ejercicio_1
             Carrera carrera;
             carrera = new Carrera();
             carrera.MostrarCarrera();
+            
             Console.ReadKey();
            
             

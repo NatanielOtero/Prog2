@@ -4,3 +4,9 @@ D:\Otero\Clase3\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
 D:\Otero\Clase3\Ejercicio_1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
 D:\Otero\Clase3\Ejercicio_1\obj\Debug\Ejercicio_1.exe
 D:\Otero\Clase3\Ejercicio_1\obj\Debug\Ejercicio_1.pdb
+C:\Users\Usuario\Desktop\Clase3\Ejercicio_1\bin\Debug\Ejercicio_1.exe.config
+C:\Users\Usuario\Desktop\Clase3\Ejercicio_1\obj\Debug\Ejercicio_1.exe
+C:\Users\Usuario\Desktop\Clase3\Ejercicio_1\obj\Debug\Ejercicio_1.pdb
+C:\Users\Usuario\Desktop\Clase3\Ejercicio_1\bin\Debug\Ejercicio_1.exe
+C:\Users\Usuario\Desktop\Clase3\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
+C:\Users\Usuario\Desktop\Clase3\Ejercicio_1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
