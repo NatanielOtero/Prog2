@@ -14,11 +14,11 @@ namespace Ejercicio_1
         public Rueda TI;
         public Rueda TD;
         public static int ContadorDeObjetos;
-        public int KilometrosRecorridos;
+        private int KilometrosRecorridos;
+        private int tiempoDemorado;
         private static int numerorandom;
         private static Random rng;
-        public Auto Maximo;
-        public Auto Minimo;
+        
        
 
         public Auto()
@@ -46,16 +46,25 @@ namespace Ejercicio_1
         {
             return this.KilometrosRecorridos;
         }
+        public int minTiempo()
+        {
+            return this.tiempoDemorado;
+        }
 
         public void VolverCero()
         {
             KilometrosRecorridos = 0;
+            tiempoDemorado = 0;
         }
 
         public void AgregarKilometros(int kilometros)
         {
             KilometrosRecorridos = kilometros;
             
+        }
+        public void AgregarTiempo(int tiempo)
+        {
+            tiempoDemorado = tiempo;
         }
 
         

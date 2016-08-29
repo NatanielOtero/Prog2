@@ -10,10 +10,18 @@ namespace Ejercicio_1
     {
         static void Main(string[] args)
         {
+            Rueda otra;
+            Tiempo tiempo;
             Carrera carrera;
+
+            otra = new Rueda("Gomas",3);
+            tiempo = new Tiempo(10);
+
+            tiempo  = tiempo + 10;
+            
             carrera = new Carrera();
             carrera.MostrarCarrera();
-            
+            otra.MostrarRueda();
             Console.ReadKey();
            
             
