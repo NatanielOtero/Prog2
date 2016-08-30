@@ -40,10 +40,11 @@ namespace Ejercicio_1
             this.auto5 = new Auto();
             this.auto6 = new Auto();
             this.ganador = new Auto();
+            
 
         }
 
-        public void PorTiempo(int minutos)
+       /* public void PorTiempo(int minutos)
         {
             
             for (int i = 0; i < minutos; i++)
@@ -57,7 +58,7 @@ namespace Ejercicio_1
 
               
             }         
-            maximo = auto1.MinyMax();
+            /*maximo = auto1.MinyMax();
            
             if (maximo < auto2.MinyMax())
             {
@@ -84,13 +85,14 @@ namespace Ejercicio_1
             {
                 maximo = auto6.MinyMax();
                 
-            }            
+            }           
            
                    
           
-        }
+        }*/
         public void CorrerCarrera(Tiempo tiempo)
         {
+          
            /* minimo = auto1.minTiempo();
             this.ganador = this.auto1;
             if (minimo > auto1.minTiempo())
@@ -124,28 +126,38 @@ namespace Ejercicio_1
             
            
         }
+
         public void CorrerCarrera(Kilometro kilometros)
         {
+            for (int i = 0; i < kilometros; i++)
+            {
+                this.auto1.Agregar((Kilometro)kilometroRandom.Next(10, 100));
+                this.auto2.Agregar((Kilometro)kilometroRandom.Next(10, 100));
+                this.auto3.Agregar((Kilometro)kilometroRandom.Next(10, 100));
+                this.auto4.Agregar((Kilometro)kilometroRandom.Next(10, 100));
+                this.auto5.Agregar((Kilometro)kilometroRandom.Next(10, 100));
+                this.auto6.Agregar((Kilometro)kilometroRandom.Next(10, 100));
+
+            } 
             
         }
+
         
        
        
         public void MostrarCarrera()
         {
             
-            PorTiempo(10);
+            //PorTiempo(10);
             this.auto1.MostrarAuto();
             this.auto2.MostrarAuto();
             this.auto3.MostrarAuto();
             this.auto4.MostrarAuto();
             this.auto5.MostrarAuto();
-            this.auto6.MostrarAuto();
-            Console.WriteLine("El minimo de kilometros recorridos: " + minimo);
-            Console.WriteLine("El maximo de kilometros recorridos: " + maximo);
-            Console.WriteLine("El ganador es "); 
-            this.ganador.MostrarAuto();
+            this.auto6.MostrarAuto();            
+            //Console.WriteLine("El maximo de kilometros recorridos: " + maximo);
 
+                     
 
         }
         
