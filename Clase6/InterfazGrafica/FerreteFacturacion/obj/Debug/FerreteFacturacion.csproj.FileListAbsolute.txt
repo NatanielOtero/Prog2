@@ -1,0 +1,9 @@
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\bin\Debug\FerreteFacturacion.exe.config
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\bin\Debug\FerreteFacturacion.exe
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\bin\Debug\FerreteFacturacion.pdb
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\obj\Debug\FerreteFacturacion.csprojResolveAssemblyReference.cache
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\obj\Debug\FerreteFacturacion.Form1.resources
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\obj\Debug\FerreteFacturacion.Properties.Resources.resources
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\obj\Debug\FerreteFacturacion.csproj.GenerateResource.Cache
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\obj\Debug\FerreteFacturacion.exe
+D:\Otero\Clase6\InterfazGrafica\FerreteFacturacion\obj\Debug\FerreteFacturacion.pdb

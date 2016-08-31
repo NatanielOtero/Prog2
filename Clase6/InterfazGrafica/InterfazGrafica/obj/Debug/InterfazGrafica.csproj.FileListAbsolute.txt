@@ -1,0 +1,9 @@
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\bin\Debug\InterfazGrafica.exe.config
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\bin\Debug\InterfazGrafica.exe
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\bin\Debug\InterfazGrafica.pdb
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\obj\Debug\InterfazGrafica.csprojResolveAssemblyReference.cache
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\obj\Debug\InterfazGrafica.Properties.Resources.resources
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\obj\Debug\InterfazGrafica.csproj.GenerateResource.Cache
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\obj\Debug\InterfazGrafica.exe
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\obj\Debug\InterfazGrafica.pdb
+D:\Otero\Clase6\InterfazGrafica\InterfazGrafica\obj\Debug\InterfazGrafica.Form1.resources

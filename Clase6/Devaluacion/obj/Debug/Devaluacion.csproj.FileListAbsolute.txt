@@ -1,0 +1,6 @@
+D:\Otero\Clase6\Devaluacion\bin\Debug\Devaluacion.exe.config
+D:\Otero\Clase6\Devaluacion\bin\Debug\Devaluacion.exe
+D:\Otero\Clase6\Devaluacion\bin\Debug\Devaluacion.pdb
+D:\Otero\Clase6\Devaluacion\obj\Debug\Devaluacion.csprojResolveAssemblyReference.cache
+D:\Otero\Clase6\Devaluacion\obj\Debug\Devaluacion.exe
+D:\Otero\Clase6\Devaluacion\obj\Debug\Devaluacion.pdb
