@@ -1,0 +1,6 @@
+D:\Otero\Ejercicio1\Herencia\bin\Debug\Herencia.exe.config
+D:\Otero\Ejercicio1\Herencia\bin\Debug\Herencia.exe
+D:\Otero\Ejercicio1\Herencia\bin\Debug\Herencia.pdb
+D:\Otero\Ejercicio1\Herencia\obj\Debug\Herencia.csprojResolveAssemblyReference.cache
+D:\Otero\Ejercicio1\Herencia\obj\Debug\Herencia.exe
+D:\Otero\Ejercicio1\Herencia\obj\Debug\Herencia.pdb

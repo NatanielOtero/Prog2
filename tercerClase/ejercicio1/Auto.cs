@@ -137,5 +137,30 @@ namespace ejercicio1
                 return this.retornarStringParaListadoTiempo();
             }
         }
+        public static int  OrdenarPorMarcaAscendente(Auto auto1, Auto auto2)
+        {
+            return string.Compare(auto2._fabricanteAuto.ToString(), auto1._fabricanteAuto.ToString());
+            //return auto2.fabricante.CompareTo(auto1.fabricante);
+           
+        }
+        public static int OrdenarPorPilotoAscendente(Auto auto1, Auto auto2)
+        {
+            return string.Compare(auto2._nombrePiloto.ToString(), auto1._nombrePiloto.ToString());
+            //return auto2.fabricante.CompareTo(auto1.fabricante);
+
+        }
+        public static int OrdenarPorMarcaDescendente(Auto auto1, Auto auto2)
+        {
+            return string.Compare(auto1._fabricanteAuto.ToString(), auto2._fabricanteAuto.ToString());
+            //return auto2.fabricante.CompareTo(auto1.fabricante);
+
+        }
+        public static int OrdenarPorPilotoDescendente(Auto auto1, Auto auto2)
+        {
+            return string.Compare(auto1._nombrePiloto.ToString(), auto2._nombrePiloto.ToString());
+            //return auto2.fabricante.CompareTo(auto1.fabricante);
+
+        }
+        
     }
 }

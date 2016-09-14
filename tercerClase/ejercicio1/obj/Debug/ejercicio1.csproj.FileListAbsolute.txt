@@ -37,3 +37,15 @@ E:\Laboratorio II y Programación II\clasesprogramacion\tercerClase\ejercicio1\o
 E:\Laboratorio II y Programación II\clasesprogramacion\tercerClase\ejercicio1\bin\Debug\ejercicio1.exe
 E:\Laboratorio II y Programación II\clasesprogramacion\tercerClase\ejercicio1\bin\Debug\ejercicio1.pdb
 E:\Laboratorio II y Programación II\clasesprogramacion\tercerClase\ejercicio1\obj\Debug\ejercicio1.csprojResolveAssemblyReference.cache
+E:\PROGRAMACION 2\tercerClase\ejercicio1\bin\Debug\ejercicio1.exe.config
+E:\PROGRAMACION 2\tercerClase\ejercicio1\bin\Debug\ejercicio1.exe
+E:\PROGRAMACION 2\tercerClase\ejercicio1\bin\Debug\ejercicio1.pdb
+E:\PROGRAMACION 2\tercerClase\ejercicio1\obj\Debug\ejercicio1.csprojResolveAssemblyReference.cache
+E:\PROGRAMACION 2\tercerClase\ejercicio1\obj\Debug\ejercicio1.exe
+E:\PROGRAMACION 2\tercerClase\ejercicio1\obj\Debug\ejercicio1.pdb
+D:\Otero\tercerClase\ejercicio1\bin\Debug\ejercicio1.exe.config
+D:\Otero\tercerClase\ejercicio1\bin\Debug\ejercicio1.exe
+D:\Otero\tercerClase\ejercicio1\bin\Debug\ejercicio1.pdb
+D:\Otero\tercerClase\ejercicio1\obj\Debug\ejercicio1.csprojResolveAssemblyReference.cache
+D:\Otero\tercerClase\ejercicio1\obj\Debug\ejercicio1.exe
+D:\Otero\tercerClase\ejercicio1\obj\Debug\ejercicio1.pdb

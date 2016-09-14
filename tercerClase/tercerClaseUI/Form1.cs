@@ -15,6 +15,8 @@ namespace tercerClaseUI
     {
         private Carrera _miCarrera;
         private Auto _autoUno;
+        private int Ascendente;
+        private int Descendente;
 
         public Form1()
         {
@@ -24,12 +26,13 @@ namespace tercerClaseUI
             {
                 this.cmbFabricante.Items.Add(item);
             }
-
+            
             this.cmbFabricante.SelectedIndex = 0;
             this.txtNombreCarrera.Text = "Chingolo Speedway";
             this.txtFechaCarrera.Text = "13/9/16";
             this.txtLugarCarrera.Text = "Monte Chingolo";
             this.cmbTipoCarrera.SelectedIndex = 0;
+            this.grbOrdenar.Enabled = false;
             //_miCarrera = new Carrera();
         }
 
@@ -54,6 +57,7 @@ namespace tercerClaseUI
             gpbListado.Enabled = true;
             gpbResultado.Enabled = true;
             this.txtNombrePiloto.Text = "";
+            grbOrdenar.Enabled = true;
 
             mostrarListado();
         }
@@ -72,11 +76,11 @@ namespace tercerClaseUI
         {
             if (this.cmbTipoCarrera.Text == "Tiempo")
             {
-                this.txtCorrerCarrera.Text = this._miCarrera.correrCarreraPorTiempo(10);
+                this.txtCorrerCarrera.Text = this._miCarrera.correrCarreraPorTiempo(int.Parse(nmcCantidadKyT.Text));
             }
             else
             {
-                this.txtCorrerCarrera.Text = this._miCarrera.correrCarreraPorKilometros(100);
+                this.txtCorrerCarrera.Text = this._miCarrera.correrCarreraPorKilometros(int.Parse(nmcCantidadKyT.Text));
             }
 
             this._miCarrera.listaDeAutos.Clear();
@@ -86,11 +90,105 @@ namespace tercerClaseUI
             this.gpbListado.Enabled = false;
             this.gpbAutos.Enabled = false;
             this.gpbCarrera.Enabled = true;
+            this.grbOrdenar.Enabled = false;
         }
 
         private void txtCorrerCarrera_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void nmcCantidadKyT_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lsbAutos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            /*this._miCarrera.listaDeAutos.Sort(Auto.OrdenarPorMarcaAscendente);
+            mostrarListado();*/
+        }
+
+        private void btnOrdenarPorPiloto_Click(object sender, EventArgs e)
+        {
+            /*this._miCarrera.listaDeAutos.Sort(Auto.OrdenarPorPilotoAscendente);
+                mostrarListado();*/
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbCriterio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtnAscendente_CheckedChanged(object sender, EventArgs e)
+        {
+            Ascendente = 1;
+            Descendente = 0;
+            
+        }
+
+        private void rbtnDescendente_CheckedChanged(object sender, EventArgs e)
+        {
+            Descendente = 1;
+            Ascendente = 0;
+        }
+
+        private void btnOrdenar_Click(object sender, EventArgs e)
+        {
+            Ordenar();
+                
+        }
+        private void Ordenar()
+        {
+            if (Ascendente == 0 && Descendente == 0)
+            {
+                MessageBox.Show("No seleccionaste una opcion");
+            }
+            if (cmbCriterio.Text.CompareTo("Marca") == 0)
+            {
+                if (Ascendente == 1)
+                {
+                    this._miCarrera.listaDeAutos.Sort(Auto.OrdenarPorMarcaAscendente);
+                    mostrarListado();
+
+                }
+                else if (Descendente == 1)
+                {
+                    this._miCarrera.listaDeAutos.Sort(Auto.OrdenarPorMarcaDescendente);
+                    mostrarListado();
+
+                }
+
+
+            }
+            if (cmbCriterio.Text.CompareTo("Piloto") == 0)
+            {
+                if (Ascendente == 1)
+                {
+                    this._miCarrera.listaDeAutos.Sort(Auto.OrdenarPorPilotoAscendente);
+                    mostrarListado();
+
+                }
+                else if (Descendente == 1)
+                {
+                    this._miCarrera.listaDeAutos.Sort(Auto.OrdenarPorPilotoDescendente);
+                    mostrarListado();
+                }
+
+
+            }
+ 
         }
     }
 }
