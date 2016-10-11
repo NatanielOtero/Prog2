@@ -1,0 +1,6 @@
+D:\Otero\Clase10\Abtraccion\bin\Debug\Abtraccion.exe.config
+D:\Otero\Clase10\Abtraccion\bin\Debug\Abtraccion.exe
+D:\Otero\Clase10\Abtraccion\bin\Debug\Abtraccion.pdb
+D:\Otero\Clase10\Abtraccion\obj\Debug\Abstraccion.csprojResolveAssemblyReference.cache
+D:\Otero\Clase10\Abtraccion\obj\Debug\Abtraccion.exe
+D:\Otero\Clase10\Abtraccion\obj\Debug\Abtraccion.pdb
