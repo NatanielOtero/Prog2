@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ArrayOfPersona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Persona><Nombre>Jony</Nombre></Persona><Persona><Nombre>Brayam</Nombre></Persona><Persona xsi:type="Alumno"><Nombre>Brandom</Nombre><legajo>1</legajo></Persona></ArrayOfPersona>

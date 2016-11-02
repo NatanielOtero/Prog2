@@ -1,0 +1,5 @@
+D:\Otero\Serializacion\Serializacion\bin\Debug\Serializacion.exe
+D:\Otero\Serializacion\Serializacion\bin\Debug\Serializacion.pdb
+D:\Otero\Serializacion\Serializacion\obj\Debug\Serializacion.csprojResolveAssemblyReference.cache
+D:\Otero\Serializacion\Serializacion\obj\Debug\Serializacion.exe
+D:\Otero\Serializacion\Serializacion\obj\Debug\Serializacion.pdb
